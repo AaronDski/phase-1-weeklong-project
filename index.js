@@ -23,6 +23,3 @@ function jokeData(startData){
 
 }
 
-
-
-// console.log(baseUrl)
