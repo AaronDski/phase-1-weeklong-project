@@ -20,6 +20,12 @@ body {
     overflow-x: hidden;
     color: #707172;
     background-color: crimson;
+<<<<<<< HEAD
+=======
+    /* background-image: url('https://i.imgur.com/cwDHPUH.png'); */
+    background-repeat:no-repeat;
+    background-position: top;
+>>>>>>> 4708d646d3aebd61fc0a62f55161917b49b38849
   }
   
   p {
