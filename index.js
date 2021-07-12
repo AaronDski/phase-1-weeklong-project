@@ -23,3 +23,11 @@ function jokeData(startData){
 
 }
 
+function addImage(){
+    let image = document.createElement('img')
+    image.id = 'chuck-face'
+    image.src = 'https://i.imgur.com/cwDHPUH.png'
+    document.querySelector('.img-container').append(image)
+
+}
+addImage()
