@@ -4,6 +4,3 @@ fetch(baseUrl)
 .then(res => res.json())
 .then (json => console.log(json))
 
-
-
-// console.log(baseUrl)
