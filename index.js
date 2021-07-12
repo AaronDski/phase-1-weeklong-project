@@ -1,12 +1,12 @@
 let baseUrl = 'https://api.chucknorris.io/jokes/random'
 
-// fatchData()
+fetchData()
 
-// function fetchData(){
+function fetchData(){
 fetch(baseUrl)
 .then(res => res.json())
 .then (data => jokeData(data))
-// }
+}
 
 
 function jokeData(startData){
