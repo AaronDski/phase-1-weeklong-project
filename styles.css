@@ -19,6 +19,7 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     color: #707172;
+/* <<<<<<< HEAD */
     background-color:firebrick;
     
     /* background-image: url('https://i.imgur.com/cwDHPUH.png');
@@ -48,6 +49,15 @@ body {
   }
   aside ul li {
     list-style: none;
+=======
+    background-color: crimson;
+<<<<<<< HEAD
+=======
+    /* background-image: url('https://i.imgur.com/cwDHPUH.png'); */
+    background-repeat:no-repeat;
+    background-position: top;
+>>>>>>> 4708d646d3aebd61fc0a62f55161917b49b38849
+>>>>>>> 0a8aabc4b7db6fff7d40d62e47059e82a680c228
   }
   
   p {
