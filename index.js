@@ -17,7 +17,7 @@ fetch(baseUrl)
 
 
 function jokeData(startData){
-    let joke = document.querySelector("h1")
+    let joke = document.querySelector(".fact-text")
     joke.textContent = startData.value
     console.log(joke)
 
