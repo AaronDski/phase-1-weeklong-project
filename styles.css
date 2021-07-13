@@ -19,10 +19,35 @@ body {
     font-weight: 400;
     overflow-x: hidden;
     color: #707172;
-    background-color: crimson;
-    /* background-image: url('https://i.imgur.com/cwDHPUH.png'); */
+    background-color:firebrick;
+    
+    /* background-image: url('https://i.imgur.com/cwDHPUH.png');
     background-repeat:no-repeat;
-    background-position: top;
+    background-position: top; */
+  }
+  h1 {
+    margin-left: 500px;
+
+  }
+  h2{
+      background-color: rgba(0, 0, 0, 0.5);
+      
+  }
+  aside{
+    background-color: rgb(219, 215, 215);
+    color: #fff;
+    padding: 2rem;
+    font-size: 20px;
+    /* padding-right: 1400px; */
+    max-width: 350px;
+    text-align: center;
+  
+  }
+  aside h1{
+    font-size: 30px;
+  }
+  aside ul li {
+    list-style: none;
   }
   
   p {
