@@ -33,9 +33,9 @@ function addImage(){
 addImage()
 
 function subBtnClick(){
-    document.querySelector('.subBtn').addEventListener('submit',(e) => {
-            e.preventDefault()
-            console.log(e)
+    document.querySelector('#subBtn').addEventListener('submit',(event) => {
+            event.preventDefault();
+            console.log(e);
     })
 } 
 subBtnClick()
