@@ -23,14 +23,14 @@ function jokeData(startData){
 
 }
 
-function addImage(){
-    let image = document.createElement('img')
-    image.id = 'chuck-face'
-    image.src = 'https://i.imgur.com/cwDHPUH.png'
-    document.querySelector('.container').append(image)
+// function addImage(){
+//     let image = document.createElement('img')
+//     image.id = 'chuck-face'
+//     image.src = 'https://i.imgur.com/cwDHPUH.png'
+//     document.querySelector('.container').append(image)
 
-}
-addImage()
+// }
+// addImage()
 
 function subBtnClick(){
     document.querySelector('#fact-form').addEventListener('submit', (e) => {
@@ -41,12 +41,12 @@ function subBtnClick(){
 } 
 subBtnClick()
 
-function addButtons(){
-    let nextBtn = document.createElement('button')
-    nextBtn.src = "https://i.imgur.com/cwDHPUH.png"
-    document.querySelector('#buttons').append(nextBtn)
-    let addBtn = document.createElement('button')
-    addBtn.src = "https://i.imgur.com/cwDHPUH.png"
-    document.querySelector('#buttons').append(addBtn)
-}
-addButtons()
+// function addButtons(){
+//     let nextBtn = document.createElement('button')
+//     nextBtn.src = "https://i.imgur.com/cwDHPUH.png"
+//     document.querySelector('#buttons').append(nextBtn)
+//     let addBtn = document.createElement('button')
+//     addBtn.src = "https://i.imgur.com/cwDHPUH.png"
+//     document.querySelector('#buttons').append(addBtn)
+// }
+// addButtons()
