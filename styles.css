@@ -40,13 +40,15 @@ body {
     margin-bottom: 20px;
     font-size: xx-large;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    
+    color: goldenrod;
   }
 
   h2{
       background-color: rgba(0, 0, 0, 0.5);
   }
-
+#buttons{
+  text-align: center;
+}
   .page-header {
     text-align: center;
     font-weight: 900;

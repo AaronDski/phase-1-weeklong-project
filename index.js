@@ -40,3 +40,13 @@ function subBtnClick(){
     })
 } 
 subBtnClick()
+
+function addButtons(){
+    let nextBtn = document.createElement('button')
+    nextBtn.src = "https://i.imgur.com/cwDHPUH.png"
+    document.querySelector('#buttons').append(nextBtn)
+    let addBtn = document.createElement('button')
+    addBtn.src = "https://i.imgur.com/cwDHPUH.png"
+    document.querySelector('#buttons').append(addBtn)
+}
+addButtons()
