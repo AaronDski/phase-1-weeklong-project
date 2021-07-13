@@ -33,7 +33,7 @@ function addImage(){
 addImage()
 
 function subBtnClick(){
-    document.querySelector('.subBtn').addEventListener('submit', (e) => {
+    document.querySelector('#fact-form').addEventListener('submit', (e) => {
          e.preventDefault()
          console.log(e)
             

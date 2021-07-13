@@ -26,6 +26,22 @@ body {
     background-position: top; */
   }
  
+  .top-of-the-page {
+    text-align: center;
+    background-color: black;
+  }
+
+  .random-fact{
+    background-color: black;
+    border-style:solid;
+    text-align: center;
+    /* max-width: 800px; */
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    
+  }
 
   h2{
       background-color: rgba(0, 0, 0, 0.5);
@@ -37,10 +53,20 @@ body {
     margin: auto;
     color: goldenrod;
     text-shadow: black 4px 4px 4px;
+    border-style: solid;
+    font-size: 40px;
+    height: 900px;
+    margin-bottom: 20px;
+    background-image: url("https://www.wallpapertip.com/wmimgs/236-2361195_chuck-norris-wallpaper.jpg") ;
   }  
+  .page-header p{
+    margin-top: 700px;
+  }
 .container{
     height: 800px;
-    float: left;
+}
+.header-space{
+  font-size:large
 }
   aside{
     background-color: rgb(219, 215, 215);
@@ -52,11 +78,8 @@ body {
     text-align: center;
     height: 1200px;
   } 
-    
-  aside h1{
-    font-size: 30px;
-  }
-
+  
+ 
   footer {
     text-align: center
   }
@@ -74,16 +97,13 @@ body {
       height: 7%;
       width: 7%;
   }
-<<<<<<< HEAD
   .form-container {
 
   }
-=======
   /* form {
 
   } */
 
->>>>>>> 4aeb776c6b93b852d0b695c1fcda4bfddb6230f4
   
   p {
     line-height: 2;
@@ -91,7 +111,10 @@ body {
   
   a {
     transition: all 0.3s ease;
+    font-size:xx-large;
+    margin-right:50px
   }
+  
   
   .container-fluid {
     padding-left: 0;

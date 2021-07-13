@@ -8,17 +8,30 @@
     <script defer type="text/javascript" src="index.js"></script>
     <link rel="stylesheet" href='styles.css'>
 </head>
-<body> 
+
+<body>
+    <section class="top-of-the-page">
+    <div class='header-space'>
+        <a href='#'>Be Awesome</a>
+        <a href='#'>Be Awesomner</a>
     <header class="page-header">
-        <h1>👊Welcome to the best page on the Internet</h1>
-        <p><iframe src="https://giphy.com/embed/UvdC8pXudeEak" width="480" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/UvdC8pXudeEak"></a>
+        <!---Links here-->
+        <h1>👊Welcome to the Internet👊</h1>
+        <!-- <p><iframe src="https://giphy.com/embed/UvdC8pXudeEak" width="900" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/UvdC8pXudeEak"></a> -->
         </p>Please refrain from applause.. Its implied</p>
     </header>
-    
-    <div class='random-fact'>
-        <h3 class="fact-text">💪Chuck's Life Facts</h3>
     </div>
+    </section>
+    
+    
     <div class="container">
+        <div class='random-fact'>
+            <!-- <style>
+                @import url('http://fonts.cdnfonts.com/css/emphatic');
+                </style> -->
+            <p class="fact-text">💪Chuck's Life Facts💪</p>
+        </div>
+    
     <aside>
         <h2 class="favs-bar">Favorite "Facts"</h2>
         <div id="fav-list"></div>
@@ -29,7 +42,7 @@
     </div>
     <div class='form-container'>
       <footer>
-        <form>
+        <form id='fact-form'>
             <label for="fname">First Name</label><br>
             <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
             <label for="lname">Last Name</label><br>
