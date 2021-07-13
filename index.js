@@ -27,7 +27,15 @@ function addImage(){
     let image = document.createElement('img')
     image.id = 'chuck-face'
     image.src = 'https://i.imgur.com/cwDHPUH.png'
-    document.querySelector('.img-container').append(image)
+    document.querySelector('.container').append(image)
 
 }
 addImage()
+
+function subBtnClick(){
+    document.querySelector('.subBtn').addEventListener('submit',(e) => {
+            e.preventDefault()
+            console.log(e)
+    })
+} 
+subBtnClick()
