@@ -74,9 +74,16 @@ body {
       height: 7%;
       width: 7%;
   }
+<<<<<<< HEAD
   .form-container {
 
   }
+=======
+  /* form {
+
+  } */
+
+>>>>>>> 4aeb776c6b93b852d0b695c1fcda4bfddb6230f4
   
   p {
     line-height: 2;

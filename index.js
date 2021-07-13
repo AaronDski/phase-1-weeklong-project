@@ -33,10 +33,16 @@ function addImage(){
 addImage()
 
 function subBtnClick(){
+<<<<<<< HEAD
     document.querySelector('.subBtn').addEventListener('submit', (e) => {
          e.preventDefault()
          console.log(e)
             
+=======
+    document.querySelector('#subBtn').addEventListener('submit',(event) => {
+            event.preventDefault();
+            console.log(e);
+>>>>>>> 4aeb776c6b93b852d0b695c1fcda4bfddb6230f4
     })
 } 
 subBtnClick()
