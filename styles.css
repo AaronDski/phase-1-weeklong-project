@@ -40,6 +40,7 @@ body {
   }  
 .container{
     height: 800px;
+    float: left;
 }
   aside{
     background-color: rgb(219, 215, 215);
@@ -73,10 +74,9 @@ body {
       height: 7%;
       width: 7%;
   }
-  form {
+  .form-container {
 
   }
-
   
   p {
     line-height: 2;
