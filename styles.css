@@ -145,6 +145,11 @@ body {
     background-color: black;
     color:goldenrod;
   }
+
+  li {
+    background-color: red;
+    font-family: fantasy;
+  }
   /* #fact-form {
     width: 100%;
     background-color: #fb8b24;
@@ -167,6 +172,7 @@ body {
     font-size:xx-large;
     margin-right:50px;
     color: goldenrod;
+    font-family: fantasy;
   }
   
   
