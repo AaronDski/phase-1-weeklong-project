@@ -34,7 +34,7 @@ body {
  
   .top-of-the-page {
     text-align: center;
-    margin: auto;
+    margin: 0px;
     
     
     background-position: center;
@@ -63,13 +63,13 @@ body {
   .page-header {
     text-align: center;
     font-weight: 900;
-    margin: auto;
+    margin-left: 3px;
     color: goldenrod;
     text-shadow: firebrick 4px 4px 4px;
     border-style: solid;
     font-size: 40px;
     height: 900px;
-    width: 105%;
+    width: 102%;
     margin-bottom: 20px;
     background-color: black;
     background-image: url('https://intelligentchristianfaith.files.wordpress.com/2013/06/chucknorris3.jpg');
@@ -111,7 +111,10 @@ body {
     max-width: 600px;
     /* text-align: center; */
   } 
-  
+  .custom-select{
+    float: right;
+    width: 1000px;
+  }
  
   
   footer {
@@ -177,7 +180,7 @@ body {
   a {
     transition: all 0.3s ease;
     font-size:xx-large;
-    margin-right:50px;
+    /* margin-right:50px; */
     color: goldenrod;
     font-family: 'Stardos Stencil', cursive;
     font-weight: 900;
