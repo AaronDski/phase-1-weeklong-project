@@ -36,7 +36,6 @@ function jokeData(startData){
     })
 } 
 subBtnClick();
-
 function nextBtn(){
     document.querySelector('.chuck1').addEventListener('click',() => {
         let jokeInfo = fetch(baseUrl)
@@ -46,7 +45,6 @@ function nextBtn(){
     })
 } 
 nextBtn();
-
 function addToFavs (){
     document.querySelector('.chuck2').addEventListener('click', (e) =>{
         let fact = document.querySelector('.fact-text').textContent
