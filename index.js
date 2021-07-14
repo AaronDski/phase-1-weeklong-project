@@ -26,11 +26,10 @@ function jokeData(startData){
 function subBtnClick(){
     document.querySelector('#fact-form').addEventListener('submit', (e) => {
          e.preventDefault()
-        // let fact = document.querySelector('#subject').textContent
         let li = document.createElement('li')
-        li.textContent =e.target.name.value
-        // li.textContent = fact
+        li.textContent =e.target.subject.value
         document.querySelector('.chuck-facts').append(li)
+        e.target.subject.value = ""
 
          console.log(li)
             
