@@ -21,6 +21,9 @@ body {
     background-image: url("https://www.wallpapertip.com/wmimgs/236-2361195_chuck-norris-wallpaper.jpg") ;
     background-repeat: no-repeat;
     background-position:center;
+    background-attachment: fixed;
+    margin: 0px;
+    height: auto;
 /* <<<<<<< HEAD */
     /*background-color:firebrick;
     
@@ -32,6 +35,11 @@ body {
   .top-of-the-page {
     text-align: center;
     background-color: black;
+    background-image: url('https://intelligentchristianfaith.files.wordpress.com/2013/06/chucknorris3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-left: 75px;
+    margin-right: 75px; */
   }
 
   .random-fact{
@@ -109,9 +117,9 @@ body {
       height: 7%;
       width: 7%;
   }
-  .form-container {
+  /* .form-container {
 
-  }
+  } */
  
   
   a {
