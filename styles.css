@@ -23,7 +23,7 @@ body {
     background-position:center;
     background-attachment: fixed;
     margin: 0px;
-    height: auto;
+    height: max-content;
 /* <<<<<<< HEAD */
     /*background-color:firebrick;
     
@@ -131,7 +131,7 @@ body {
     box-sizing: border-box;
   }
   textarea {
-    width: 25%;
+    width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
