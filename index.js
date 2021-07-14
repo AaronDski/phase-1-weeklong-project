@@ -26,9 +26,13 @@ function jokeData(startData){
 function subBtnClick(){
     document.querySelector('#fact-form').addEventListener('submit', (e) => {
          e.preventDefault()
-         e.
+        // let fact = document.querySelector('#subject').textContent
+        let li = document.createElement('li')
+        li.textContent =e.target.name.value
+        // li.textContent = fact
+        document.querySelector('.chuck-facts').append(li)
 
-         console.log(e)
+         console.log(li)
             
     })
 } 
@@ -44,3 +48,13 @@ function nextBtn(){
 } 
 nextBtn();
 
+function addToFavs (){
+    document.querySelector('.chuck2').addEventListener('click', (e) =>{
+        let fact = document.querySelector('.fact-text').textContent
+        let li = document.createElement('li')
+        li.textContent = fact
+        document.querySelector('.chuck-facts').append(li)
+        // console.log(li)
+    })
+}
+addToFavs()
