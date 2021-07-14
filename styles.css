@@ -49,8 +49,9 @@ body {
     margin: auto;
     margin-bottom: 20px;
     font-size: xx-large;
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     color: goldenrod;
+    text-shadow: darkgrey, 4px, 4px, 4px;
   }
 
   h2{
@@ -91,14 +92,17 @@ body {
   margin-right: 80px
 }
   .chuck-facts-container{
-    background-color: rgb(219, 215, 215);
+    background-color: black;
     margin: auto;
-    color: #fff;
+    color:goldenrod;
     padding: 2rem;
     font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: groove, goldenrod;
+    
     /* padding-right: 1400px; */
     max-width: 600px;
-    text-align: center;
+    /* text-align: center; */
   } 
   
  
@@ -138,6 +142,8 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: black;
+    color:goldenrod;
   }
   /* #fact-form {
     width: 100%;
