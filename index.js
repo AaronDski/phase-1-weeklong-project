@@ -19,34 +19,28 @@ fetch(baseUrl)
 function jokeData(startData){
     let joke = document.querySelector(".fact-text")
     joke.textContent = startData.value
-    console.log(joke)
+    // console.log(joke)
 
 }
-
-// function addImage(){
-//     let image = document.createElement('img')
-//     image.id = 'chuck-face'
-//     image.src = 'https://i.imgur.com/cwDHPUH.png'
-//     document.querySelector('.container').append(image)
-
-// }
-// addImage()
 
 function subBtnClick(){
     document.querySelector('#fact-form').addEventListener('submit', (e) => {
          e.preventDefault()
+         e.
+
          console.log(e)
             
     })
 } 
-subBtnClick()
+subBtnClick();
 
-// function addButtons(){
-//     let nextBtn = document.createElement('button')
-//     nextBtn.src = "https://i.imgur.com/cwDHPUH.png"
-//     document.querySelector('#buttons').append(nextBtn)
-//     let addBtn = document.createElement('button')
-//     addBtn.src = "https://i.imgur.com/cwDHPUH.png"
-//     document.querySelector('#buttons').append(addBtn)
-// }
-// addButtons()
+function nextBtn(){
+    document.querySelector('.chuck1').addEventListener('click',() => {
+        let jokeInfo = fetch(baseUrl)
+        .then(res => res.json())
+        .then (data => jokeData(data));
+        // console.log(jokeInfo)
+    })
+} 
+nextBtn();
+
