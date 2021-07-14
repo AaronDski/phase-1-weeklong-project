@@ -34,6 +34,7 @@ body {
  
   .top-of-the-page {
     text-align: center;
+    margin: auto;
     
     
     background-position: center;
@@ -64,15 +65,17 @@ body {
     font-weight: 900;
     margin: auto;
     color: goldenrod;
-    text-shadow: black 4px 4px 4px;
+    text-shadow: firebrick 4px 4px 4px;
     border-style: solid;
     font-size: 40px;
     height: 900px;
+    width: 105%;
     margin-bottom: 20px;
     background-color: black;
     background-image: url('https://intelligentchristianfaith.files.wordpress.com/2013/06/chucknorris3.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Stardos Stencil', cursive;
     /*background-image: url("https://www.wallpapertip.com/wmimgs/236-2361195_chuck-norris-wallpaper.jpg") ;*/
   }  
   .page-header p{
@@ -80,9 +83,13 @@ body {
   }
 .container{
     height: 800px;
+    
 }
 .header-space{
-  font-size:large
+  font-size:xx-large;
+  font-family: 'Stardos Stencil', cursive;
+  color: goldenrod;
+  margin-right:50px;
 }
 
 #buttons{
@@ -172,7 +179,9 @@ body {
     font-size:xx-large;
     margin-right:50px;
     color: goldenrod;
-    font-family: fantasy;
+    font-family: 'Stardos Stencil', cursive;
+    font-weight: 900;
+    text-shadow: firebrick
   }
   
   
