@@ -1,4 +1,4 @@
-let baseUrl = 'https://api.chucknorris.io/jokes/random'
+let baseUrl = `https://api.chucknorris.io/jokes/random`
 
 // Retrieve a random personalized chuck joke
 // let persUrl = `https://api.chucknorris.io/jokes/random?name=${firstName}`
@@ -6,6 +6,26 @@ let baseUrl = 'https://api.chucknorris.io/jokes/random'
 let searchUrl = 'https://api.chucknorris.io/jokes/search?query={query}'
 
 let catUrl = 'https://api.chucknorris.io/jokes/categories'
+
+// `https://api.chucknorris.io/jokes/random?category={category}`
+let category = `?category=dev`
+
+function dropDownMenu(){
+    fetch(baseUrl + `${category}`)
+    .then(res => res.json())
+    .then(json =>{
+        let menuOptions = document.querySelector('.drop-down')
+        menuOptions.addEventListener('change', (e)=>{
+            e.target.value = this.category
+        })
+    })
+    //    let menuOptions = document.querySelector('.drop-down')
+    //    menuOptions.addEventListener('change', (e)=>{
+    //        console.log(e.target.value)
+    //    })
+    // })
+}
+dropDownMenu();
 
 fetchData()
 
@@ -41,7 +61,7 @@ function nextBtn(){
         let jokeInfo = fetch(baseUrl)
         .then(res => res.json())
         .then (data => jokeData(data));
-        // console.log(jokeInfo)
+        console.log(jokeInfo)
     })
 } 
 nextBtn();
@@ -58,7 +78,7 @@ function addToFavs (){
             btn.remove()
         })
         document.querySelector('.chuck-facts').append(li,btn)
-        // console.log(li)
+        //console.log(li)
     })
 }
 addToFavs()
