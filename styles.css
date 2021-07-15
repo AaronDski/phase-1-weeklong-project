@@ -112,7 +112,7 @@ body {
   margin-right: 80px
 }
   .chuck-facts-container{
-    background-color: black;
+    /* background-color: black; */
     margin: auto;
     color:goldenrod;
     padding: 2rem;
@@ -125,6 +125,10 @@ body {
     max-width: 600px;
     /* text-align: center; */
   } 
+  .favs-bar{
+    background-color: transparent;
+    text-align: center;
+  }
   .custom-select{
     float: right;
     width: 500px;

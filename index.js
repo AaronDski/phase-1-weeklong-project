@@ -43,15 +43,22 @@ function jokeData(startData){
          e.preventDefault()
         let li = document.createElement('li')
         li.textContent =e.target.subject.value
-        let btn = document.createElement('button')
-        btn.innerText = "Remove"
-        btn.addEventListener('click', (e) => {
-            e.preventDefault()
-            li.remove()
-            btn.remove()
-        })
-        document.querySelector('.chuck-facts').append(li,btn)
-        e.target.subject.value = ""
+        if (e.target.subject.value === ''){
+            alert('DONT GET NUNCHUCKED TO THE NUTZ SIDEKICK')
+        }else{
+            let btn = document.createElement('button')
+            btn.innerText = "Remove"
+            btn.style.backgroundColor = 'black'
+            btn.style.color = 'goldenrod'
+            btn.addEventListener('click', (e) => {
+                e.preventDefault()
+                li.remove()
+                btn.remove()
+                
+            })
+            document.querySelector('.chuck-facts').append(li,btn)
+            e.target.subject.value = ""
+        }
         //  console.log(li)
     })
 } 
