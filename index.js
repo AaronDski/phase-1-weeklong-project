@@ -19,25 +19,26 @@ function dropDownMenu(){
              category= e.target.value;
         })
     })
-    //    let menuOptions = document.querySelector('.drop-down')
-    //    menuOptions.addEventListener('change', (e)=>{
-    //        console.log(e.target.value)
-    //    })
-    // })
 }
+
 dropDownMenu();
 
-fetchData()
+
 
 function fetchData(){
 fetch(baseUrl)
 .then(res => res.json())
 .then (data => jokeData(data))
 }
+
+fetchData()
+
 function jokeData(startData){
     let joke = document.querySelector(".fact-text")
     joke.textContent = startData.value
     // console.log(joke)
+
+
 }function subBtnClick(){
     document.querySelector('#fact-form').addEventListener('submit', (e) => {
          e.preventDefault()
@@ -90,6 +91,8 @@ function addToFavs (){
         li.textContent = fact
         let btn = document.createElement('button')
         btn.textContent = "Remove"
+        btn.style.backgroundColor = 'black'
+        btn.style.color = 'goldenrod'
         btn.addEventListener('click', (e) => {
             e.preventDefault()
             li.remove()

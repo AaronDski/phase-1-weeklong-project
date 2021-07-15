@@ -82,6 +82,7 @@ body {
     width: 102%;
     margin-bottom: 20px;
     background-color: black;
+    /* background-image: url('https://acegif.com/wp-content/gifs/fire-15.gif'); */
     background-image: url('https://intelligentchristianfaith.files.wordpress.com/2013/06/chucknorris3.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -101,6 +102,7 @@ body {
   font-family: 'Stardos Stencil', cursive;
   color: goldenrod;
   margin-right:50px;
+  /* background-image: url('https://acegif.com/wp-content/gifs/fire-15.gif'); */
 }
 
 #buttons{
@@ -187,8 +189,9 @@ body {
     /* background-image:url('https://acegif.com/wp-content/gifs/fire-15.gif'); */
 
     /* background-image:url('https://gfycat.com/ifr/AdmiredImpressiveJohndory'); */
-    font-family: fantasy;
+    font-family: 'Stardos Stencil', cursive;  
   }
+  /* fantasy; */
   /* #fact-form {
     width: 100%;
     background-color: #fb8b24;
@@ -214,6 +217,12 @@ body {
     font-family: 'Stardos Stencil', cursive;
     font-weight: 900;
     text-shadow: firebrick
+  }
+.bottom-footer{
+  margin: auto;
+}
+  iframe{
+    margin: auto;
   }
   
   
