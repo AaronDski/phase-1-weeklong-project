@@ -49,7 +49,7 @@ body {
   }
 
   .random-fact{
-    background-color: black;
+    background-color:transparent;
     border-style:solid;
     text-align: center;
     /* max-width: 800px; */
@@ -128,11 +128,18 @@ body {
   .custom-select{
     float: right;
     width: 500px;
+    /* background-color: black; */
     /* display: inline-block; */
     /* display: none; */
   }
- 
-  
+ .drop-down{
+   background-color: black;
+   background-image: url('https://acegif.com/wp-content/gifs/fire-15.gif')
+ }
+  option{
+    background-image: url('https://acegif.com/wp-content/gifs/fire-15.gif');
+    color: goldenrod;
+  }
   footer {
     text-align: center
   }

@@ -8,7 +8,7 @@ let searchUrl = 'https://api.chucknorris.io/jokes/search?query={query}'
 let catUrl = 'https://api.chucknorris.io/jokes/categories'
 
 // `https://api.chucknorris.io/jokes/random?category={category}`
-let category = `?category=dev`
+let category = ""
 
 function dropDownMenu(){
     fetch(baseUrl + `${category}`)
@@ -16,7 +16,7 @@ function dropDownMenu(){
     .then(json =>{
         let menuOptions = document.querySelector('.drop-down')
         menuOptions.addEventListener('change', (e)=>{
-            e.target.value = this.category
+             category= e.target.value;
         })
     })
     //    let menuOptions = document.querySelector('.drop-down')
@@ -56,15 +56,26 @@ function jokeData(startData){
     })
 } 
 subBtnClick();
+
 function nextBtn(){
     document.querySelector('.chuck1').addEventListener('click',() => {
         let jokeInfo = fetch(baseUrl)
         .then(res => res.json())
         .then (data => jokeData(data));
         console.log(jokeInfo)
+        if (category){
+            fetch(`https://api.chucknorris.io/jokes/random?category=${category}`)
+            .then(res =>res.json())
+            .then(data =>jokeData(data))
+
+        }else{
+            jokeInfo;
+
+        }
     })
 } 
 nextBtn();
+
 function addToFavs (){
     document.querySelector('.chuck2').addEventListener('click', (e) =>{
         let fact = document.querySelector('.fact-text').textContent
