@@ -70,7 +70,7 @@ function nextBtn(){
         let jokeInfo = fetch(baseUrl)
         .then(res => res.json())
         .then (data => jokeData(data));
-        console.log(jokeInfo)
+        // console.log(jokeInfo)
         if (category){
             fetch(`https://api.chucknorris.io/jokes/random?category=${category}`)
             .then(res =>res.json())
