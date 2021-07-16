@@ -45,10 +45,10 @@ function jokeData(startData){
         let li = document.createElement('li')
         li.textContent =e.target.subject.value
         if (e.target.subject.value === ''){
-            alert('DONT GET NUNCHUCKED TO THE NUTZ SIDEKICK')
+            alert('DONT GET NUNCHUCKED TO THE NUTZ SIDEKICK!')
         }else{
             let btn = document.createElement('button')
-            btn.innerText = "Remove"
+            btn.innerText = "Nunchuck!!"
             btn.style.backgroundColor = 'black'
             btn.style.color = 'goldenrod'
             btn.addEventListener('click', (e) => {
@@ -90,7 +90,7 @@ function addToFavs (){
         let li = document.createElement('li')
         li.textContent = fact
         let btn = document.createElement('button')
-        btn.textContent = "Remove"
+        btn.textContent = "Roundhouse Kick"
         btn.style.backgroundColor = 'black'
         btn.style.color = 'goldenrod'
         btn.addEventListener('click', (e) => {
